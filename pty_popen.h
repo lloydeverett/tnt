@@ -8,7 +8,7 @@
 #include <sys/wait.h>
 #include <termios.h>
 #if defined(__APPLE__) && defined(__MACH__)
-#include <util.h> /* TODO: probably has to be openpty on linux */
+#include <util.h>
 #else
 #include <pty.h>
 #endif
